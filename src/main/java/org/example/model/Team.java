@@ -1,4 +1,6 @@
-package org.example;
+package org.example.model;
+
+import org.example.model.Player;
 
 import java.util.ArrayList;
 
@@ -54,4 +56,5 @@ public class Team {
     public void addRuns(int runs){
         totalScore+=runs;
     }
+
 }

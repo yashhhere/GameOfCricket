@@ -1,10 +1,23 @@
-package org.example;
+package org.example.model;
 
 public class Player {
  private String playerName;
  private int wicketTaken;
  private int runsScored;
  private int ballsFaced;
+ private boolean isOut;
+ public boolean ifBallFaced(){
+   if(getBallsFaced()!=0)return true;
+   else return false;
+ }
+
+ public boolean isOut() {
+  return isOut;
+ }
+
+ public void setOut() {
+  isOut = true;
+ }
 
  public String getPlayerName() {
   return playerName;
