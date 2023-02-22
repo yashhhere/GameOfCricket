@@ -9,7 +9,7 @@ public class Team {
     int totalScore;
     int totalWickets;
     int totalBalls;
-    ArrayList<Player> teamMembers = new ArrayList<Player>();
+    public ArrayList<Player> teamMembers = new ArrayList<Player>();
 
     public String getTeamName() {
         return teamName;

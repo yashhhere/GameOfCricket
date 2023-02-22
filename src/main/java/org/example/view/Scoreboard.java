@@ -5,8 +5,6 @@ import org.example.model.Team;
 import java.util.Formatter;
 
 public class Scoreboard {
-    Team teamA = new Team();
-    Team teamB = new Team();
     public void printScore(Team teamA, Team teamB, int numOvers){
         System.out.println("Player Name\t\tRuns Scored\t\tBalls faced");
 
