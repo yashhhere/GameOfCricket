@@ -14,5 +14,6 @@ public class GameManager {
         i1.playInning(teamA, numOvers, INT_MAX);
         i2.playInning(teamB, numOvers, teamA.getTotalScore()+1);
     }
+
 }
 
